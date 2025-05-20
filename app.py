@@ -8,6 +8,7 @@ CORS(app, resources={r"/*": {"origins": "*"}})
 app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app, cors_allowed_origins="*")
 
+#1
 # def send_count():
 #     global count
 #     while True:
