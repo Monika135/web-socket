@@ -26,10 +26,6 @@ socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for Socket.IO
 # #     send(msg, broadcast=True)
 
 
-# @app.route('/')
-# def index():
-#     return "Welcome to Flask WebSocket Example!"
-
 
 # @socketio.on('connect')
 # def handle_connect():
