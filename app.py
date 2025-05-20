@@ -9,7 +9,7 @@ app.config['SECRET_KEY'] = 'secret!'
 socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for Socket.IO
 
 
-
+# hi
 # def send_count():
 #     global count
 #     while True:
