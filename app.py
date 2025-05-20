@@ -25,14 +25,6 @@ socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for Socket.IO
 # #     print('Received message: ' + msg)
 # #     send(msg, broadcast=True)
 
-
-
-# @socketio.on('connect')
-# def handle_connect():
-#     print('Client connected')
-#     socketio.start_background_task(send_count)
-
-
 count = 0
 counting = False  # Flag to control background task
 flag = True
