@@ -33,10 +33,6 @@ socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for Socket.IO
 #     socketio.start_background_task(send_count)
 
 
-# @socketio.on('disconnect')
-# def handle_disconnect():
-#     print('Client disconnected')
-
 count = 0
 counting = False  # Flag to control background task
 flag = True
