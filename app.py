@@ -43,7 +43,7 @@ socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for Socket.IO
 
 count = 0
 counting = False  # Flag to control background task
-
+flag = True
 
 def send_count():
     global count, counting
