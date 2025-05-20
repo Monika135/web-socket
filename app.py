@@ -22,7 +22,7 @@ socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for Socket.IO
 # #     send(msg, broadcast=True)
 
 count = 0
-counting = False  # Flag to control background task
+counting = False
 flag = True
 
 def send_count():
