@@ -6,7 +6,7 @@ import eventlet
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins
 app.config['SECRET_KEY'] = 'secret!'
-socketio = SocketIO(app, cors_allowed_origins="*")  # Allow CORS for Socket.IO
+socketio = SocketIO(app, cors_allowed_origins="*")
 
 # def send_count():
 #     global count
